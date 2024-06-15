@@ -26,10 +26,10 @@ The visualizer also gives a series of parameters that describe the performance o
 ![](shell.gif)
 
 * Merge Sort
-* ![](merge.gif)
+![](merge.gif)
 
 * Radix Sort
-* ![](radix.gif)
+![](radix.gif)
 
 * Bubble Sort
-* ![](bubble.gif)
+![](bubble.gif)
