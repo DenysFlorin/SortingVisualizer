@@ -22,4 +22,14 @@ The visualizer also gives a series of parameters that describe the performance o
 
 
 ## Example Use
+* Shell Sort
 ![](shell.gif)
+
+* Merge Sort
+* ![](merge.gif)
+
+* Radix Sort
+* ![](radix.gif)
+
+* Bubble Sort
+* ![](bubble.gif)
