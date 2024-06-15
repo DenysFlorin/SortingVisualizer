@@ -22,3 +22,4 @@ The visualizer also gives a series of parameters that describe the performance o
 
 
 ## Example Use
+![](shell.gif)
