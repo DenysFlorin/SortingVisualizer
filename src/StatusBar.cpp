@@ -2,7 +2,7 @@
 // Created by denys on 4/7/2024.
 //
 
-#include "StatusBar.h"
+#include "../include/StatusBar.h"
 Bar::Bar(int w, int h, Data* d, Algorithm* a) {
     m_width = w;
     m_height = h;

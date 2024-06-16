@@ -3,7 +3,7 @@
 //
 
 #include <random>
-#include "Algorithm.h"
+#include "../include/Algorithm.h"
 
 Algorithm::Algorithm(Data &data, Viewer &viewer) : m_data(data), m_finished_sort(false), m_last_sort(-1), m_running(false), m_sorted(true), m_view(viewer){
     setAlg(0);

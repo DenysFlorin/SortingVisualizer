@@ -9,7 +9,7 @@
 #include "Data.h"
 #include "Algorithm.h"
 
-#include <SFML\Graphics.hpp>
+#include "SFML/Graphics.hpp"
 #include <iostream>
 #include <sstream>
 

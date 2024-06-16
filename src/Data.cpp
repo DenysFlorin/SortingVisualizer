@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <thread>
-#include "Data.h"
+#include "../include/Data.h"
 
 Data::Data(int size, int maxValue) {
     m_size = size;

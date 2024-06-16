@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "Viewer.h"
+#include "../include/Viewer.h"
 
 void Viewer::color(int i) {
     m_dr[i].setFillColor(sf::Color::White);

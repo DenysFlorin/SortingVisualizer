@@ -8,15 +8,15 @@ FETCHCONTENT_MAKEAVAILABLE(SFML)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SortingVisualizer main.cpp
-        Data.cpp
-        Data.h
-        Viewer.cpp
-        Viewer.h
-        Algorithm.cpp
-        Algorithm.h
-        Algorithm.h
-        StatusBar.cpp
-        StatusBar.h)
+add_executable(SortingVisualizer src/main.cpp
+        src/Data.cpp
+        include/Data.h
+        src/Viewer.cpp
+        include/Viewer.h
+        src/Algorithm.cpp
+        include/Algorithm.h
+        include/Algorithm.h
+        src/StatusBar.cpp
+        include/StatusBar.h)
 
 target_link_libraries(SortingVisualizer sfml-graphics)

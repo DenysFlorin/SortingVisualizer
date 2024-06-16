@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "Data.h"
-#include "Algorithm.h"
-#include "Viewer.h"
-#include "StatusBar.h"
+#include "../include/Data.h"
+#include "../include/Algorithm.h"
+#include "../include/Viewer.h"
+#include "../include/StatusBar.h"
 
 int main(){
     sf::VideoMode def = sf::VideoMode::getDesktopMode();
@@ -13,7 +13,7 @@ int main(){
     const int DATA_H = 0.05 * HEIGHT;
     const int DATA_SIZE = 200;
 
-    sf::RenderWindow window(def, "Sorting", sf::Style::Fullscreen);
+    sf::RenderWindow window(def, "Sorting", sf::Style::Default);
     window.setFramerateLimit(FPS);
     sf::Event event;
     Data data(DATA_SIZE, HEIGHT - DATA_H);
